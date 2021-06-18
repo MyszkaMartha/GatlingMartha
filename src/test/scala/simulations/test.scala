@@ -6,7 +6,6 @@ import io.gatling.http.Predef._
 
 class Test extends Simulation
 {
-  //
   val httpProtocol = http
     .baseUrl("https://aspire-log-stage.azurewebsites.net")
     .inferHtmlResources()
